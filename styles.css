@@ -1,0 +1,128 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+* {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+img {
+	max-width:100%;
+}
+
+/************* End CSS RESET **************/
+
+body {
+	background:url(images/paper.png);
+	color:#424242;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding:30px 0;
+}
+
+#page {
+	width:980px;
+	margin:auto;
+}
+
+header {
+	border-bottom: 3px solid #424242;
+	padding-bottom:20px;
+}
+
+header, footer {
+	margin: 0 10px;
+	overflow:hidden;
+}
+section {
+	padding:20px 0;
+	overflow:hidden;
+}
+
+footer {
+	border-top: 3px solid #424242;
+	padding-top:20px;
+}
+
+#about {
+	width:66.6666%;
+	padding:10px;
+	float:left;
+}
+
+#projects {
+	width: 33.33%;
+	float:left;
+	padding:10px;
+}
+
+.alignleft {
+	float:left;
+	margin: 0 10px 5px 0;
+}
+
+/************ typography *************/
+
+h1, h2, h3 {
+	font-family: 'Bitter', serif;
+	margin-bottom:.5em;
+}
+
+h1 {
+	font-size:150%;
+	text-transform:uppercase;
+}
+
+header h1 {
+	font-size:300%;
+	margin-bottom:.1em;
+}
+
+p {
+	line-height:1.4em;
+	margin-bottom:1em;
+}
+
+ul, ol {
+	margin-bottom:1em;
+	list-style-type:disc;
+	padding-left:1.2em;
+}
+
+ol {
+	list-style-type:decimal;
+}
+
+li {
+	margin-bottom:.5em;
+}
+
+strong {
+	font-weight:600;
+}
+
+a {
+	text-decoration:none;
+	color:#045685;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+@media only screen and (max-width: 980px) {
+	
+	#page { width: 100%; }
+	
+}
+
+@media only screen and (max-width: 550px) {
+	
+	#about, #projects {
+		float:none;
+		width:100%;
+	}
+	
+}
+	
+
