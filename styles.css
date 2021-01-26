@@ -69,26 +69,17 @@ header h1 {
 }
 
 p {
-	line-height:1.4em;
+	line-height:1.5em;
 	margin-bottom:1em;
 }
 
 ul, ol {
 	margin-bottom:1em;
-	list-style-type:disc;
 	padding-left:1.2em;
-}
-
-ol {
-	list-style-type:decimal;
 }
 
 li {
 	margin-bottom:.5em;
-}
-
-strong {
-	font-weight:600;
 }
 
 a {
